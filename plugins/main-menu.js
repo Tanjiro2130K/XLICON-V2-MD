@@ -15,13 +15,13 @@ import {
  
  const defaultMenu = {
   before: `
-  ▎▔ ${botname} ⚡ *ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ*  ▰▎\n
+  ▎▔ ${botname} 🫧 *ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ* whhatsapp bot created for love and joy by TIKU✨🌷\n
   *%ucpn*
  *_Uptime_*: %muptime
  `.trimStart(),
- header: "┌─◙『 *_%category_* 』◙",
- body: "┃⬡▸ %cmd %isPremium %islimit",
- footer: "╰─────────────────◙",
+ header: "『 *_%category_* 』",
+ body: " ✧ %cmd %isPremium %islimit",
+ footer: "",
  after: "\n%me",
  }
  let handler = async (m, {
