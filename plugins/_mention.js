@@ -13,7 +13,7 @@ handler.all = async function (m, conn) {
     let murl = "https://chat.whatsapp.com/GQlWh6EUV2MA0F4BFysGgt"
     let hash = global.botname
     let img = "https://i.imgur.com/u1bz1hx.jpeg"
-    let num = ["917086726371"]
+    let num = ["233268374753"]
 
     let doc = {
         audio: {
