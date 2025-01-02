@@ -9,7 +9,7 @@
 let handler = m => m
 handler.all = async function (m, conn) {
     var vn = "./Assets/ALIVE.mp3"
-    let url = "https://www.comingsoon.net/guides/news/1898833-blue-lock-season-2-episode-15-release-date-ended-over"
+    let url = "https://chat.whatsapp.com/GQlWh6EUV2MA0F4BFysGgt"
     let murl = "https://chat.whatsapp.com/GQlWh6EUV2MA0F4BFysGgt"
     let hash = global.botname
     let img = "https://i.imgur.com/u1bz1hx.jpeg"
