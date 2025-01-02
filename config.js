@@ -7,15 +7,12 @@ import axios from 'axios'
 
 // Global variables
 global.owner = [
-  ['918360234087', 'Ｗ Ｈ Ｉ Ｔ Ｅ ４ ４ ４  ? ?', true], 
-  ['923184070915', '𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 -(𝘼𝙝𝙢𝙢𝙞)', true], 
-  ['233533763772', 'Abraham Dwamena2.0', true],
-  ['233268374753', 'Abraham Dwamena3.0', true]
-] 
+  ['917086726371', 'TIKU✨🌷', true], 
+  ]
 
-global.mods = ['917888755628','923184070915', '233268374753', '923184474176', '233268374753'] 
-global.prems = ['923184070915', '94789481495', '918360234087', '233268374753']
-global.allowed = ['923184070915', '233268374753', '918360234087', '233268374753']
+global.mods = ['917086726371', '917086810603'] 
+global.prems = ['917086726371', '917086810603']
+global.allowed = ['917086726371', '917086810603']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = global.keysZens[Math.floor(global.keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -49,10 +46,10 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = '𝘟𝘭𝘪𝘤𝘰𝘯 𝘝𝘰𝘭 2'
+global.botname = 'Seishiro Nagi'
 global.premium = 'true'
-global.packname = '𝙏𝙚𝙖𝙢 𝙓𝙇𝙄𝘾𝙊𝙉' 
-global.author = '@𝘮𝘥𝘹𝘭𝘪𝘤𝘰𝘯𝘷2' 
+global.packname = '👾 Handcrafted for you ' 
+global.author = 'by Seishiro Nagi 🫧' 
 global.menuvid = 'https://files.catbox.moe/yu3j54.mp4'
 global.igfg = '▢✓ Follow Our channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
 global.dygp = 'https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW'
