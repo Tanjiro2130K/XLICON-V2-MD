@@ -21,10 +21,10 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "THE XLICON-V2 IS ALIVE 🌟",
+          title: "I am still here to rule ",
           body: "XLICON BOT",
           thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
+          sourceUrl: 'https://chat.whatsapp.com/GQlWh6EUV2MA0F4BFysGgt',
           mediaType: 1,
           renderLargerThumbnail: true
           }}
