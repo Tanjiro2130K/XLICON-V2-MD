@@ -46,37 +46,7 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './XLICON.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-⭐ *INFO XLICON-V2 BOT* ⭐
-
-  ╭───•✧✧•───╮
-  *≡*. 
-│ ➫「 *Developer* 」
-│ ➫ *Name    :* Salman Ahmad & Abraham Dwamena
-│ ➫ *Place   :* Pakistan & Ghana
-│ ➫ *Gender  :*  ᴍᴀʟᴇ
-│ ➫ *Age     :* _18_ and _19_
-│ ➫ *Phone   :* wa.me/923184070915 & wa.me/+233533763772
-│ ➫ *YouTube :* youtube.com/@s4salmanyt 
-│ ➫ *GitHub  :* github.com/salmanytofficial
-│ ➫ *IG ID   :* instagram.com/ahmmikun
-│ ➫ *Channel* :https://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e
-│ ➫ *Status  :* Debugging
- Code._
-© XLICON-V2 BY Salman Ahmad and AB-Dev
-
-⚡ *STATE* ⚡
-➫ *${groupsIn.length}* GROUP CHATS
-➫  *${groupsIn.length}* united groups
-➫  *${groupsIn.length - groupsIn.length}* abandoned groups
-➫  *${chats.length - groupsIn.length}* private chats
-➫  *${chats.length}* Total Chats
-
-
- *🕣 S E R V E R*
-*🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 FreeRAM:* ${format(freemem())}
-
-*≡  NodeJS memory *
+Everything this is working fine just go on ✨👾
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 conn.sendFile(m.chat, pp, 'prefil.jpg', infobt, m, false, { mentions: [who] })
